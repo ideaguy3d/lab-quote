@@ -44,6 +44,10 @@
             $scope.activeQuestion = idx;
         };
 
+        $scope.goBack = function() {
+            $scope.activeQuestion -= 1;
+        };
+
         function createHubspotContact(shQuestion, answerObj) {
             if (shQuestion === "Currently Selling") {
                 if (answerObj.optionIsSelected && answerObj.text !== "other") {

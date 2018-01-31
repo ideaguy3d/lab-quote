@@ -21,11 +21,28 @@ label {
     height: 90vh;
 }
 
+@media screen and (max-width: 600px) {
+    #lab916-quote {
+        height: 200vh;
+    }
+}
+
 #lab916-quote #lab916-progress-container {
     position: absolute;
     top: 110px;
     left: 0;
     text-align: left;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    #lab916-quote #lab916-progress-container {
+        display: none;
+    }
 }
 
 .L9-mt20 {
@@ -171,12 +188,23 @@ label {
     top: 50px !important;
 }
 
+.L9-mobile-area {
+    display: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .L9-mobile-area {
+        display: inline-block;
+    }
+}
+
 #lab916-quote #contact.active {
     top: 10px !important;
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select {
+input[type=text], input[type=email], select {
     width: 95%;
     padding: 2px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
@@ -211,6 +239,14 @@ input[type=submit]:hover {
 .L9-form-container {
     padding: 24px;
     text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .L9-form-container {
+        position: relative;
+        width: 370px;
+        margin-left: -140%;
+    }
 }
 
 /*
