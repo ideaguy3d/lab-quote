@@ -1,9 +1,0 @@
-.idea
-**/.idea
-node_modules
-**/*.xml
-**/**/*.xml
-.idea/workspace.xml
-api/.idea/workspace.xml
-php/connect.php
-**/connect.php

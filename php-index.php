@@ -195,7 +195,7 @@
 
 <!-- This is the Actual "Get a quote" ng code for lab916 -->
 <script src="js/lab916.js"></script>
-<script src="app.quote-test.js"></script>
+<script src="app.quote.js"></script>
 
 
 </body>
